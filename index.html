@@ -15,8 +15,8 @@
 <body>
     <div id="app">
 
-        <h1>Generate Random Email</h1>
-        <div v-for="email in emails" > {{ email }}</div>
+        <h1>Generate Random Email</h1>     <!----BONUS-->
+        <div v-for="email in emails" v-if="emails.length == 10" > {{ email }}</div>
     </div>
 </body>
 </html>
